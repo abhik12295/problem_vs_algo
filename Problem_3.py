@@ -53,5 +53,12 @@ def test_function(test_case):
         print("Fail")
 
 
+# Empty array list
+test_function([[], []])
+
+# test case
+test_function([[0, 1, 2, 3], [31, 20]])
+
+test_function([[], []])
 test_function([[1, 2, 3, 4, 5], [542, 31]])
 test_function([[4, 6, 2, 5, 9, 8], [964, 852]])

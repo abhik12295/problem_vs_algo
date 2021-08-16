@@ -33,3 +33,11 @@ def test_function(test_case):
 test_function([0, 0, 2, 2, 2, 1, 1, 1, 2, 0, 2])
 test_function([2, 1, 2, 0, 0, 2, 1, 0, 1, 0, 0, 2, 2, 2, 1, 2, 0, 0, 0, 2, 1, 0, 2, 0, 0, 1])
 test_function([0, 0, 0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 2, 2, 2, 2, 2, 2, 2])
+# Test case 3 - array with only a single element
+# Should print [0]
+# Should print Pass as the result array should be the same array
+test_function([0])
+
+# Test case 4 - array with empty array
+# Should print Pass as the result array should also be an empty array
+test_function([])
