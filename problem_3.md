@@ -1,3 +1,3 @@
-Used merge sort.
-Time Complexity : = O(nlogn)
+Used Merge Sort <br>
+Time Complexity : = O(mlogn) <br>
 Space Complexity: = O(n)
