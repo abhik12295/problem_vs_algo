@@ -1,3 +1,3 @@
-Used binary search.
-Time Complexity : = O(n)
+Used binary search.<br>
+Time Complexity : = O(logn)<br>
 Space Complexity: = O(1)
