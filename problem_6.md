@@ -1,3 +1,12 @@
-# Linear Search Algorithm <br>
-logic completes in a single traversal, which is time complexity of O(n) <br>
-Space Complexity = O(1)
+
+# Implementation algorithm
+To find the min/max value in an un-sorted array, <br>
+Linear Search algorithm
+Maintain 2 variables for the min/max values.
+
+
+# Run Time Complexity :
+Complexity which is O(n) <br>
+# Space Complexity: 
+In-place comparison, Space complexity is O(1)
+
