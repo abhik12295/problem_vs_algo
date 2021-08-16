@@ -19,9 +19,10 @@ def sqrt(num):
 
 # Edge case
 
+#expected output: 1
+print ("Pass" if (1 == sqrt(1)) else "Fail")
 print("Pass" if (None == sqrt(-10)) else "Fail")
 print("Pass" if (None == sqrt(-10.1)) else "Fail")
-print("Pass" if (None== sqrt('abc')) else "Fail")
 
 #Cases
 print("Pass" if (3 == sqrt(9)) else "Fail")
