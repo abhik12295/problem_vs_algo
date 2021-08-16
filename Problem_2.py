@@ -47,9 +47,15 @@ def test_function(test_case):
         print("Fail")
 
 
+# array with non-rotated arrays
+test_function([[1, 2, 3, 4], 3])
+# Empty array, should return -1
+test_function([[], 5])
+# without target value
+test_function([[6, 7, 8, 1, 2, 3, 4], 5])
+
 test_function([[6, 7, 8, 9, 10, 1, 2, 3, 4], 6])
 test_function([[6, 7, 8, 9, 10, 1, 2, 3, 4], 1])
 test_function([[6, 7, 8, 1, 2, 3, 4], 8])
 test_function([[6, 7, 8, 1, 2, 3, 4], 1])
 test_function([[6, 7, 8, 1, 2, 3, 4], 10])
-
